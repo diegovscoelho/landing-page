@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between; /* Coloca a logo à esquerda e os links à direita */
+    align-items: center;
+    width: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    height: 10vh;
+}
+
+.page-body {
+    height: 30vh;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 200px;
+    justify-content: space-between;
+}
+
+.intro div img {
+    width: 100%;
+}
+
+#hero {
+    background: #1F2937;
+}
